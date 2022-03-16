@@ -6,7 +6,7 @@
 
 [![license](https://img.shields.io/github/license/liuxiaotian/hexo-theme-lous?style=flat-square)](https://github.com/liuxiaotian/hexo-theme-lous/blob/main/LICENSE)
 [![hexo-version](https://img.shields.io/badge/hexo-5.0+-0E83CD?style=flat-square&logo=hexo)](https://hexo.io/)
-[![node-version](https://img.shields.io/badge/node-10.13+-026E00?style=flat-square&logo=node.js)](https://hexo.io/)
+[![node-version](https://img.shields.io/badge/node-10.13+-339933?style=flat-square&logo=node.js)](https://hexo.io/)
 [![prs-welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/liuxiaotian/hexo-theme-lous/pulls)
 
 Lous 是一款~~简陋~~极简的 Hexo 主题。其名出自刘禹锡的《陋室铭》：“斯是陋室，惟吾德馨”。
