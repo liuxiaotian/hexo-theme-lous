@@ -1,5 +1,5 @@
 <div align="right">
-  🌏 简体中文 | <a title="English" href="README.en.md">English</a>
+  🌏 <a title="Chinese" href="README.md">简体中文</a> | English
 </div>
 
 # Lous
@@ -9,61 +9,61 @@
 [![node-version](https://img.shields.io/badge/node-10.13+-026E00?style=flat-square&logo=node.js)](https://hexo.io/)
 [![prs-welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/liuxiaotian/hexo-theme-lous/pulls)
 
-Lous 是一款~~简陋~~极简的 Hexo 主题。其名出自刘禹锡的《陋室铭》：“斯是陋室，惟吾德馨”。
+Lous is a ~~crude~~ minimalist theme. Its name comes from a poetry 'Loushi Ming' by the ancient Chinese poet [Liu Yuxi](https://en.wikipedia.org/wiki/Liu_Yuxi). It means that poverty does not limit one's spiritual abundance.
 
-## 预览
+## Preview
 
 ![preview](/source/_images/screenshot.png)
 
-我的博客：[liuxiaotian.com](https://liuxiaotian.com)
+My blog: [liuxiaotian.com](https://liuxiaotian.com)
 
-## 安装
+## Installation
 
-克隆本仓库：
+You can clone this repo:
 
 ``` bash
 $ cd hexo-site
 $ git clone https://github.com/liuxiaotian/hexo-theme-lous.git themes/next
 ```
 
-或者添加子模块：
+Or add this repo as a submodule:
 
 ``` bash
 $ cd hexo-site
 $ git submodule add https://github.com/liuxiaotian/hexo-theme-lous.git themes/next
 ```
 
-完成后，将站点配置 `theme` 改为 `lous`。
+After the installation, edit the site configuration, set the `theme` variable to `lous`.
 
 ``` yml
 theme: next
 ```
 
-## 配置
+## Configuration
 
-在站点配置同级目录下创建 `_config.lous.yml`。
+Create a file named `_config.lous.yml` and place it at the same level as the site configuration.
 
 ``` yml
-# 配置 favicon，目录位于 source 文件夹下
+# Configure favicon, the directory is located under the source folder
 favicon: images/avatar.png
 
-# 顶部菜单（不配置则不显示）
+# Top menu (No configure, no display)
 menu:
-  主页: /
-  关于: about
+  Home: /
+  About: about
 
-# 版权说明（不配置则不显示）
+# Copyright (No configure, no display)
 copyright:
   name: yourname
 
-# 文章协议（不配置则不显示）
+# The license of articles (No configure, no display)
 license:
   name: CC-BY-NC-SA 4.0
   url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ```
 
-代码高亮需要启用站点配置中的 `hljs`，同时 Markdown 中代码块开头的语言与反引号之间应该添加空格。
+To enable highlight you need to enable `hljs` in the site configuration. At the same time, a space should be added between the backticks and the language identifier.
 
 ``` yml
 highlight:
