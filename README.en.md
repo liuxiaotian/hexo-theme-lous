@@ -61,7 +61,20 @@ license:
   name: CC-BY-NC-SA 4.0
   url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
+# rss (No configure, no display)
+rss:
+  enable: true
+  path: atom.xml
+  # path: rss2.xml
 ```
+
+### RSS
+
+RSS requires `hexo-generator-feed` to be installed in the site root.
+
+For this plugin's installation and configuration, please check [https://github.com/hexojs/hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed).
+
+### Highlight
 
 To enable highlight you need to enable `hljs` in the site configuration. At the same time, a space should be added between the backticks and the language identifier.
 
