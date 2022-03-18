@@ -63,7 +63,6 @@ license:
 
 # rss (不配置则不显示)
 rss:
-  enable: true
   path: atom.xml
   # path: rss2.xml
 ```
