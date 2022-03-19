@@ -1,9 +1,10 @@
 .post-details
     color: #555
+    font-size: 15px
     width: 100%
     margin: 0 10px
     inline-height: 1.8em
-    a
+    a:not(.nonstyle)
         text-decoration: none
         color: #3A97FF
         box-shadow: 0 1px 0 #555
@@ -47,8 +48,9 @@
             font-size: 0.9em
         p
             margin-block: 0
-            margin: 0 0 10px
             line-height: 1.8em
+            &:not(:last-child)
+                margin: 0 0 10px
         img
             max-width: 100%
         blockquote
