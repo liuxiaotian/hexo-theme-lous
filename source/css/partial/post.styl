@@ -9,10 +9,16 @@
         &:hover
             color: #06c
     .post-title
+        margin-bottom: 10px
         h1
             color: #000
+            font-size: 1.5em
             font-weight: normal
-            margin-block: 0 1em
+            margin-block: 0
+    .post-meta
+        margin-bottom: 20px
+        font-size: 14px
+        color: #999
     .post-content
         h1
         h2
@@ -77,6 +83,7 @@
                 color: rgba(153, 153, 153, 0.2)
         p
             margin-block: 0
-            margin: 0 0 10px
+            &:not(:last-child)
+                margin: 0 0 10px
         img
             max-width: 100%
