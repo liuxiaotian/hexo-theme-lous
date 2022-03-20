@@ -6,7 +6,7 @@
 
 [![license](https://img.shields.io/github/license/liuxiaotian/hexo-theme-lous?style=flat-square)](https://github.com/liuxiaotian/hexo-theme-lous/blob/main/LICENSE)
 [![hexo-version](https://img.shields.io/badge/hexo-5.0+-0E83CD?style=flat-square&logo=hexo)](https://hexo.io/)
-[![node-version](https://img.shields.io/badge/node-10.13+-026E00?style=flat-square&logo=node.js)](https://hexo.io/)
+[![node-version](https://img.shields.io/badge/node-10.13+-026E00?style=flat-square&logo=node.js)](https://nodejs.org/en/)
 [![prs-welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/liuxiaotian/hexo-theme-lous/pulls)
 
 Lous is a ~~crude~~ minimalist theme. Its name comes from a poetry 'Loushi Ming' by the ancient Chinese poet [Liu Yuxi](https://en.wikipedia.org/wiki/Liu_Yuxi). It means that poverty does not limit one's spiritual abundance.
