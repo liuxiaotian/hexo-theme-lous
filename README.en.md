@@ -65,6 +65,12 @@ license:
 rss:
   path: atom.xml
   # path: rss2.xml
+
+# MathJax
+mathjax:
+  enable: false
+  showPageOnRenderFinish: true 
+  timeout: 1000 # Show page after 1000ms, even if mathjax doesn't finish rendering
 ```
 
 ### RSS
