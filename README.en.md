@@ -66,6 +66,12 @@ rss:
   path: atom.xml
   # path: rss2.xml
 
+# MathJax
+mathjax:
+  enable: false
+  showPageOnRenderFinish: true 
+  timeout: 1000 # Show page after 1000ms, even if mathjax doesn't finish rendering
+
 # Utterances is a lightweight comments widget built on GitHub issues. See https://utteranc.es/
 utterances:
   enable: true

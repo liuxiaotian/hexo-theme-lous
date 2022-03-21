@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <%- partial('partial/head') %>
+<% if (is_post() && theme.mathjax && theme.mathjax.enable && theme.mathjax.showPageOnRenderFinish) { %>
+<body style="opacity:0">
+<% } else { %>
 <body>
+<% } %>
     <div class="body-container">
         <div class="header-wrapper"><%- partial('partial/header') %></div>
         <div class="main-wrapper"><%- body %></div>

@@ -23,4 +23,18 @@
     crossorigin="anonymous"
     async>
 </script>
+<% if (theme.mathjax && theme.mathjax.enable) { %>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Queue(function() {
+    document.getElementsByTagName("body")[0].style.opacity = 1;
+});
+<% if (theme.mathjax.timeout) { %>
+setTimeout(function() {document.getElementsByTagName("body")[0].style.opacity = 1;}, <%= theme.mathjax.timeout %>);
+<% } %>
+MathJax.Hub.Config({
+    messageStyle: "none",
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 <% } %>
