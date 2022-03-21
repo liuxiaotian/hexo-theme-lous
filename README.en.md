@@ -65,6 +65,13 @@ license:
 rss:
   path: atom.xml
   # path: rss2.xml
+
+# Utterances is a lightweight comments widget built on GitHub issues. See https://utteranc.es/
+utterances:
+  enable: true
+  repo: owner/repo
+  issueTerm: pathname
+  theme: github-light
 ```
 
 ### RSS

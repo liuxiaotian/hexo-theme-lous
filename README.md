@@ -65,6 +65,13 @@ license:
 rss:
   path: atom.xml
   # path: rss2.xml
+
+# Utterances 是一个基于 GitHub Issues 的轻量级评论系统。请查看 https://utteranc.es/
+utterances:
+  enable: true
+  repo: owner/repo
+  issueTerm: pathname
+  theme: github-light
 ```
 
 ### RSS
